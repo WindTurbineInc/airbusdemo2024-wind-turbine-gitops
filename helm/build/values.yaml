@@ -1,0 +1,15 @@
+app:
+  name: airbusdemo2024-wind-turbine-app
+  namespace: airbusdemo2024
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/airbusdemo2024-wind-turbine
+  org: WindTurbineInc
+  name: airbusdemo2024-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: airbusdemo2024/wind-turbine-app
+  tag: latest
